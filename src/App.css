@@ -1,0 +1,43 @@
+.card {
+  height: 250px;
+  width: 500px;
+  background-color: rgb(252, 247, 247);
+  padding: 1.5em;
+  padding-right: 2.5em;
+  font-size: 1.2em;
+}
+
+.card > p {
+  text-align: right;
+}
+span {
+  font-size: 4em;
+}
+
+.quote {
+  display: flex;
+
+}
+.button {
+  width: 2em;
+  height: 2em;
+  border: none;
+  border-radius: 50%;
+  font-size: 2em;
+  color: white;
+  position: absolute;
+  right: 0.6em;
+  bottom: 0.6em;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+}
